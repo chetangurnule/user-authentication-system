@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.main-container{
+    width: 35%;
+    height: 200px;
+    /* border: 2px solid red; */
+}
+/* ********************** background styling ************* */
+.background{
+    width: 100%;
+    height: 100vh;
+    background-color: #f8fafc;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: -50px;
+    left: 0;
+    transform-origin: top right;
+    transform: skewY(15deg);
+    z-index: -1;
+}
+
+.background::after{
+    content: '';
+    height: 6px;
+    position: absolute;
+    left: 0;
+    right:0;
+    bottom: 0;
+    background: linear-gradient(to right,#fff 0%, #fff 3%, #5BF7DB 3%, #5BF7DB 20%, #fff 20%, #fff 80%, #5BF7DB 80%, #5BF7DB 97%, #fff 97%, #fff 100%);
+  }
+
+  /* *************** background for logIn page ************ */
+  .login-back{
+    width: 100%;
+    height: 100vh;
+    background-color: #f8fafc;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: -50px;
+    left: 0;
+    transform-origin: top right;
+    transform: skewY(15deg);
+    z-index: -1;
+  }
+  /* **************** styling sign up message div ********** */
+  .signup-message{
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    text-align: center;
+  }
+  .signup-message p{
+    font-size: 24px;
+    font-weight: 700;
+    color: #625BF7;
+
+  }
+/* ********************** sign up div ******************** */
+.signup{
+    background-color: #fff;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.div-1{
+    background-color: #fff;
+    /* border: 2px solid blue; */
+    padding: 20px 40px;
+    box-shadow: 0px 6px 8px 0px #0000000D;
+}
+
+.error-message{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 20px;
+}
+.error-message p{
+    font-size: large;
+    font-weight: 700;
+    color: #625BF7;
+
+}
+/* *******************form styling ***************** */
+
+
+.form-label {
+    margin-bottom: 0.1rem;
+    font-weight: 500px;
+}
+.mb-3 {
+    margin-bottom: 5px!important;
+}
+.form-control{
+    border: 1.5px solid #DEDEDE;
+}
+.btn{
+    margin-top: 10px;
+    width: 100%;
+
+}
+
+/* ***************** div-2 styling **************** */
+.div-2{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.div-2 span{
+    color:#625BF7;
+}
+
+/* ************** login page styling ************ */
+.logIn{
+    padding: 20px;
+    text-align: center;
+    /* border: 2px solid red; */
+    background-color: #fff;
+}
+.logIn .heading{
+    margin: 5px 0;
+}
+.logIn .img img{
+    display: block;
+    margin :  10px auto;
+}
+.logIn .para{
+    margin: 30px 0;
+}
+.logIn .para p{
+    margin: 5px 0;
+}
+.logIn .btn{
+    width: 60%;
+}
