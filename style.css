@@ -140,3 +140,21 @@
 .logIn .btn{
     width: 60%;
 }
+
+/* responsive design */
+@media(max-width : 1120px){
+    .main-container{
+        width: 50%;
+    }
+}
+@media(max-width : 720px){
+    .main-container{
+        width: 70%;
+    }
+}
+@media(max-width : 500px){
+    .main-container{
+        padding: 20px;
+        width: 100%;
+    }
+}
